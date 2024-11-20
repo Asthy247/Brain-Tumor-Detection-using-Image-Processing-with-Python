@@ -21,13 +21,19 @@ This dataset will be used to train and evaluate our image processing models.
 
 # Image Processing Techniques
 
+
 **1. Edge Detection:**
+
 
 **Sobel Filter**: Detects edges based on intensity gradients.
 
+
 **Prewitt Filter:** Similar to Sobel but with a slightly different kernel.
 
+
 **Laplacian Filter:** Detects edges based on the second derivative of intensity.
+
+
 
 
 **2. Feature Extraction:**
@@ -61,7 +67,7 @@ The output (224, 224, 3) indicates that the image o is a color image with three 
 
 # Image Processing Techniques Using Filters
 
-# visualization for Both The Original and Entropy Images Side-by-Side
+# Visualization for Both The Original and Entropy Images Side-by-Side
 
 ![image](https://github.com/user-attachments/assets/2f1b120b-756c-48b6-aa2d-18a197e43bbd)
 
@@ -146,6 +152,12 @@ in the original image based on the chosen filter parameters.
 
 ![image](https://github.com/user-attachments/assets/02768d32-39cf-4da1-bc9d-06998bc277aa)
 
+**Interpretation of the Hessian Image:**
+
+**Dark Regions**: These regions correspond to areas in the original image with low curvature, such as flat regions or smooth gradients.
+
+
+**Bright Regions:** These regions correspond to areas with high curvature, such as edges or corners.
 
 # Prewitt Filter for Data Visualization on Both the Original and Edge-Detected Version
 
